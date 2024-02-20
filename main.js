@@ -1,10 +1,10 @@
-$(window).addEventListener("keypress", function(event) {
+window.addEventListener("keypress", function(event) {
   switch(event.key) {
-    case "1":
+    case 1:
       event.preventDefault();
       document.getElementById("btn1").click();
       break;
-    case "2":
+    case '2':
       event.preventDefault();
       document.getElementById("btn2").click();
       break;
