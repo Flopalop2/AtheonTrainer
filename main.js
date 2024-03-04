@@ -9,12 +9,22 @@ const queryString = window.location.search;
 
 const urlParams = new URLSearchParams(queryString);
 
-if (urlParams != null) {
+if (urlParams.get('G') != null) {
   G=urlParams.get('G');
+}
+if (urlParams.get('F') != null) {
   F=urlParams.get('F');
+}
+if (urlParams.get('E') != null) {
   E=urlParams.get('E');
+}
+if (urlParams.get('A') != null) {
   A=urlParams.get('A');
+}
+if (urlParams.get('C') != null) {
   C=urlParams.get('C');
+}
+if (urlParams.get('D') != null) {
   D=urlParams.get('D');
 }
 
