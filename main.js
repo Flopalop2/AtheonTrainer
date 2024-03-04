@@ -6,7 +6,7 @@ var C=2;
 var D=3;
 
 const queryString = window.location.search;
-console.log(queryString);
+
 const urlParams = new URLSearchParams(queryString);
 if (urlParams != null) {
   G=urlParams.get('G');
