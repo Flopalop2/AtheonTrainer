@@ -1,4 +1,4 @@
-Edit by Flopalop2 3/3/2024: Added customizability. Press r to refresh and stop sound playing. Press 123456 to play corresponding sounds. Use url format ?g=4&F=5&E=6&A=1&C=2&D=3 at end of url for variable changing. 
+Edit by Flopalop2 3/3/2024: Added customizability. Press r to refresh and stop sound playing. Press 123456 to play corresponding sounds. Use url format ?G=4&F=5&E=6&A=1&C=2&D=3 at end of url for variable changing. 
 
 # AtheonTrainer
 Impress your loved ones, friends, and pets by memorizing the oracle tones used during the Vault of Glass Atheon boss battle!
