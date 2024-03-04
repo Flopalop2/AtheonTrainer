@@ -1,3 +1,6 @@
+const queryString = window.location.search;
+console.log(queryString);
+
 window.addEventListener("keypress", function(event) {
   switch(event.key) {
     case "1":
