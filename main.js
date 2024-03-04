@@ -18,6 +18,16 @@ if (urlParams != null) {
   D=urlParams.get('D');
 }
 
+
+
+document.getElementById(G).innerHTML = G + "<br>(G)";
+document.getElementById(F).innerHTML = F + "<br>(F&#35;)";
+document.getElementById(E).innerHTML = E + "<br>(E)";
+document.getElementById(A).innerHTML = A + "<br>(A)";
+document.getElementById(C).innerHTML = C + "<br>(C)";
+document.getElementById(D).innerHTML = D + "<br>(D)";
+
+
 window.addEventListener("keypress", function(event) {
   switch(event.key) {
     case "1":
