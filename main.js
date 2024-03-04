@@ -19,33 +19,33 @@ if (urlParams != null) {
 }
 
 window.onload = function(){
-  document.getElementById(G).innerHTML = G + "<br>(G)";
-  document.getElementById(F).innerHTML = F + "<br>(F&#35;)";
-  document.getElementById(E).innerHTML = E + "<br>(E)";
-  document.getElementById(A).innerHTML = A + "<br>(A)";
-  document.getElementById(C).innerHTML = C + "<br>(C)";
-  document.getElementById(D).innerHTML = D + "<br>(D)";
+  document.getElementById("G").innerHTML = G + "<br>(G)";
+  document.getElementById("F").innerHTML = F + "<br>(F&#35;)";
+  document.getElementById("E").innerHTML = E + "<br>(E)";
+  document.getElementById("A").innerHTML = A + "<br>(A)";
+  document.getElementById("C").innerHTML = C + "<br>(C)";
+  document.getElementById("D").innerHTML = D + "<br>(D)";
 };
 
 window.addEventListener("keypress", function(event) {
   switch(event.key) {
-    case "1":
-      document.getElementById(A).click();
+    case A:
+      document.getElementById("A").click();
       break;
-    case "2":
-      document.getElementById(C).click();
+    case C:
+      document.getElementById("C").click();
       break;
-    case "3":
-      document.getElementById(D).click();
+    case D:
+      document.getElementById("D").click();
       break;
-    case "4":
-      document.getElementById(G).click();
+    case G:
+      document.getElementById("G").click();
       break;
-    case "5":
-      document.getElementById(F).click();
+    case F:
+      document.getElementById("F").click();
       break;
-    case "6":
-      document.getElementById(E).click();
+    case E:
+      document.getElementById("E").click();
       break;
     case "r":
       event.preventDefault();
