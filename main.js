@@ -23,5 +23,9 @@ window.addEventListener("keypress", function(event) {
     case "6":
       event.preventDefault();
       document.getElementById("btn6").click();
+      break;
+    case "r":
+      event.preventDefault();
+      location.reload();
   }
 });
