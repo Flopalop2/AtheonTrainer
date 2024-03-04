@@ -8,6 +8,7 @@ var D=3;
 const queryString = window.location.search;
 
 const urlParams = new URLSearchParams(queryString);
+
 if (urlParams != null) {
   G=urlParams.get('G');
   F=urlParams.get('F');
