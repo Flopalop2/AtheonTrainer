@@ -1,9 +1,9 @@
-var G=4;
-var F=5;
-var E=6;
-var A=1;
-var C=2;
-var D=3;
+var G='4';
+var F='5';
+var E='6';
+var A='1';
+var C='2';
+var D='3';
 
 const queryString = window.location.search;
 
